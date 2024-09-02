@@ -74,7 +74,7 @@ public class week04CodingProject {
          wordLoop("Hello", 3);
 
          // run fullName method
-         fullName("Amy", "Tate");
+         System.out.println(fullName("Amy", "Tate"));
 
          // run onehundredPlus method to return true
          int[] returnTrue = {101, 105, 222, 333};
@@ -118,8 +118,8 @@ public class week04CodingProject {
         System.out.println(response);;
     }
 
-    public static void fullName(String firstName, String lastName){
-        System.out.println(firstName + " " + lastName);
+    public static String fullName(String firstName, String lastName){
+        return (firstName + " " + lastName);
     }
 
     public static boolean onehundredPlus(int[] nums){
